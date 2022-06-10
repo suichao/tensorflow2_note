@@ -3,6 +3,7 @@ import numpy as np
 x = np.random.random([3, 3])
 x1 = np.concatenate(x)
 print(x)
+print(x1)
 output = sum(x1 ** 2) / 2
 print(output)
 res = tf.nn.avg_pool
